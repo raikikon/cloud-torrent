@@ -5,7 +5,7 @@ package server
 var defaultSearchConfig = []byte(`{
 	"kat": {
 		"name": "Kickass Torrents",
-		"url": "https://kat.cr/usearch/{{query}}/{{page:1}}/?field=seeders&sorder=desc",
+		"url": "https://kickass.cd/usearch/{{query}}/{{page:1}}/?field=seeders&sorder=desc",
 		"list": "#mainSearchTable table tr[id]",
 		"result": {
 			"name":".cellMainLink",
@@ -18,7 +18,7 @@ var defaultSearchConfig = []byte(`{
 	},
 	"tpb": {
 		"name": "The Pirate Bay",
-		"url": "https://thepiratebay.se/search/{{query}}/{{page:0}}/7//",
+		"url": "https://thepiratebay.org/search/{{query}}/{{page:0}}/7//",
 		"list": "#searchResult > tbody > tr",
 		"result": {
 			"name":"a.detLink",
